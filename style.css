@@ -1,6 +1,23 @@
 *{
-    font-family: 'Roboto';
+    font-family: 'Roboto',  sans-serif;
 
+}
+
+/*.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -8,11 +25,16 @@
     padding: 8px;
     justify-content: space-between;   
     align-items: center;
-    /*will have to change*/ background-color: #1F2937 
 }
 
+
+.top-section {
+    background-color: #1F2937;
+}
+
+
+
 .logo {
-    display: flex;
     padding: 8px;
     margin-left: 100px;
     font-size: 24px;
