@@ -10,6 +10,8 @@
     align-items: center;
 }*/
 
+
+
 .column1 {
     display: flex;
     margin-left: 100px;
@@ -33,7 +35,18 @@
     background-color: #1F2937;
 }
 
+#hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom: 0;
+}
 
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .logo {
     padding: 8px;
@@ -49,5 +62,10 @@ ul {
     gap: 8px;
     list-style-type: none;
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+}
+
+.placeholder {
+    background-color: gray;
+    height: auto;
 }
