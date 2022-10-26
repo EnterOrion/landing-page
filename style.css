@@ -3,24 +3,21 @@
 
 }
 
-/*.top-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}*/
-
-
-
 .column1 {
     display: flex;
     margin-left: 100px;
     flex-direction: column;
+    width: 50%;
 }
 
 .column2 {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 100px;
+    
 }
 
 .header {
@@ -38,7 +35,7 @@
 #hero {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     margin-bottom: 0;
 }
 
@@ -52,20 +49,25 @@ p {
     padding: 8px;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 
 ul {
     display: flex;
     margin-right: 100px;
+    margin-bottom: 130px;
     padding: 0;
-    gap: 8px;
+    gap: 20px;
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 
 .placeholder {
     background-color: gray;
-    height: auto;
+    padding: 50px;
+    margin-bottom: 50px
+  
 }
