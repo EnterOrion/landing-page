@@ -130,6 +130,20 @@ p {
 }
 
 
+.section3 {
+    display: flex;
+    background-color: #E5E7EB;
+    align-content: center;
+    justify-content: center;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
 
 
 
@@ -142,9 +156,9 @@ p {
     display: flex;
     justify-content: center;
     text-align: center;
-
     flex-direction: column;
     align-items: center;
+    padding: 50px;
 }
 
 .info {
