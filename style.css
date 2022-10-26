@@ -15,10 +15,12 @@
     flex-direction: column;
     width: 50%;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 100px;
     
 }
+
+
 
 .header {
     display: flex;
@@ -46,10 +48,14 @@ p {
 }
 
 .logo {
+    display: flex;
     padding: 8px;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 800;
+    position: relative;
+    bottom: 65px;
+
 }
 
 
@@ -67,7 +73,8 @@ ul {
 
 .placeholder {
     background-color: gray;
-    padding: 50px;
-    margin-bottom: 50px;
+    padding: 60px;
+    margin-bottom: 100px;
+    font-style: italic;
   
 }
