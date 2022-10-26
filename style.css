@@ -54,7 +54,7 @@ p {
     color: #F9FAF8;
     font-weight: 800;
     position: relative;
-    bottom: 65px;
+    bottom: 55px;
 
 }
 
@@ -77,4 +77,12 @@ ul {
     margin-bottom: 100px;
     font-style: italic;
   
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
 }
