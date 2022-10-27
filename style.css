@@ -225,17 +225,18 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 95px;
 
 }
 
 .blue-box {
     background: #3882F6;
-    height: 120px;
+    height: 150px;
     width: 950px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    border-radius: 5px;
 }
 
 .call-action {
