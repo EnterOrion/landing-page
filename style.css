@@ -217,5 +217,49 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     border: none;
+    font-weight: 800;
     border-radius: 5px;
+}
+
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.blue-box {
+    background: #3882F6;
+    height: 120px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.call-action {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#action, #action2 {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#action {
+    font-weight: 800;
+}
+
+#button2 {
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    width: 90px;
+    height: 30px;
+    margin-left: 270px;
+    font-weight: 800;
+
 }
